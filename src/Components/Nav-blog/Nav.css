@@ -1,0 +1,82 @@
+.hed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 2rem 2rem;
+    margin: 3rem 0 3rem 5rem;
+    width: 34rem;
+    height: 52rem;
+    background-color:white;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+    border-radius: 1rem;
+
+}
+
+#menubar {
+    font-size: 1.8rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10000;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+
+}
+
+.user img {
+    margin: 1rem 0;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 1rem rgba(255, 255, 255, .2);
+}
+
+.user .name {
+    font-size: 3rem;
+    padding: .5rem 0;
+    color: var(--perpale);
+}
+
+.user .post {
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+.navbar .menu {
+    display: block;
+    padding: 0.5rem;
+    font-size: 2rem;
+
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    border-radius: 0.5rem;
+    transition: all .2s linear;
+    width: 20rem;
+    margin: 1rem 0;
+}
+
+.navbar .menu:hover {
+    background-color: var(--bodycolor);
+    color: #555;
+
+
+}
+.nav-btn {
+    display: none;
+    cursor: pointer;
+    padding: 5px;
+    /* background: transparent; */
+    border: none;
+    color:var(--perpale);
+    opacity: 0;
+    font-size: 20px;
+}
