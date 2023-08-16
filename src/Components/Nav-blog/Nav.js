@@ -23,7 +23,7 @@ function Nav() {
           <p className="post">front end developer</p>
         </div>
         <nav className="navbar" ref = {navRef}>
-          <Link className="menu" to="Resume">HOME</Link>
+          <Link className="menu" to="/">HOME</Link>
           <Link className="menu" to="about">ABOUT</Link>
           <Link className="menu" to="education">EDUCATION</Link>
           <Link className="menu" to="contact">CONTACT</Link>
