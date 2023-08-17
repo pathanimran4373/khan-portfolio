@@ -1,5 +1,5 @@
 import React from 'react'
-import './Third-page.css'
+import './style.css'
 function ThirdPage() {
   return (
     <div>

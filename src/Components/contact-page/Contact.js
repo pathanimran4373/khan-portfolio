@@ -1,5 +1,5 @@
 import React from 'react'
-import './Fourth-page.css'
+import './style.css'
 function Contact(props) {
   return (
     <>

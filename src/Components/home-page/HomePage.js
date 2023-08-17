@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './First-page.css'
-import CV from '../../img/cv.pdf'
+import './style.css'
+import CV from '../../assets/cv.pdf'
 function FirstPage() {
   return (
     <div>

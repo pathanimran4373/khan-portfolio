@@ -1,5 +1,5 @@
 import React from "react";
-import "./Fifth-page.css";
+import "./style.css";
 import { Link } from "react-router-dom";
 
 function FifthPage() {

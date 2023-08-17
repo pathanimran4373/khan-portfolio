@@ -1,23 +1,22 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Nav from './Components/Nav-blog/Nav'
-import FirstPage from './Components/First-page/First-page'
-import SecondPage from './Components/Second-page/Second-page'
-import ThirdPage from './Components/Third-page/Third-page'
-import FourthPage from './Components/Fourth-page/Fourth-page'
-import FifthPage from './Components/Fifth-page/Fift-page'
-
+import Navbar from './Components/Nav-blog/Nav'
+import Home from "./Components/home-page/HomePage"
+import About from "./Components/about-page/AboutPage"
+import Education from "./Components/education-page/EducationPage"
+import Contact from "./Components/contact-page/ContactPage"
+import Project from "./Components/project-page/ProjectPage"
 function App() {
   return (
     <>
 
-      <Nav />
+      <Navbar />
       <Routes>
-        <Route path="/" element={<FirstPage />} />
-        <Route path="/about" element={<SecondPage />} />
-        <Route path="/education" element={<ThirdPage />} />
-        <Route path="/contact" element={<FourthPage />} />
-        <Route path="/project" element={<FifthPage />} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/project" element={<Project/>} />
       </Routes>
     
     </>

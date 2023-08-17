@@ -1,5 +1,5 @@
 import React from 'react'
-import './Second-page.css'
+import './style.css'
 function SecondPage() {
   return (
     <div>
@@ -16,20 +16,20 @@ function SecondPage() {
 
             <div className="skills">
                 <div className="progress">
-                    <h3>html <span>95%</span></h3>
+                    <h3>HTML <span>95%</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
                 <div className="progress">
-                    <h3>css <span>85%</span></h3>
+                    <h3>CSS <span>85%</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
                 <div className="progress">
-                    <h3>javascript <span>65%</span></h3>
+                    <h3>Javascript <span>65%</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
 
                 <div className="progress">
-                    <h3>React<span>65%</span></h3>
+                    <h3>React & Redux<span>65%</span></h3>
                     <div className="bar"><span></span></div>
                 </div>
             </div>

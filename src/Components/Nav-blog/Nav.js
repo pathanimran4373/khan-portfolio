@@ -4,7 +4,7 @@ import { FaBars, FaTimes} from 'react-icons/fa'
 
 import { Link } from 'react-router-dom'
 import './Nav.css'
-import img from '../../img/new_img1.jpg'
+import img from '../../assets/new_img1.jpg'
 // import { GiHamburgerMenu } from 'react-icons/gi';
 function Nav() {
   // const [Hicon, ShowIcon]=useState(false);

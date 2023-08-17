@@ -28,7 +28,7 @@
     padding:0.5rem ;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
     background-color: var(--navbg);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .about .skills .progress h3 {

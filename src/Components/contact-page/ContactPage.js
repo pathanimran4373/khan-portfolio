@@ -1,5 +1,5 @@
 import React from 'react'
-import './Fourth-page.css'
+import './style.css'
 import Contact from './Contact'
 import { FaRegEnvelope, FaPhoneSquare, FaMapMarkerAlt } from 'react-icons/fa';
 function FourthPage() {
