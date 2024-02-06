@@ -27,7 +27,8 @@ html {
 
 body {
   padding-left: 30rem;
-  background-color: var(--bodycolor);
+  /* background-color: var(--bodycolor); */
+  background-color: #555;
 }
 
 section {
