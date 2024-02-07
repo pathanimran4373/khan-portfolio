@@ -20,22 +20,11 @@
     background-color: var(--bodycolor);
 }
 .project-section::-webkit-scrollbar-track {
-  background: black; /* Color of the scrollbar track */
+  background: black; 
 }
-/* .lag ul li {
-  margin-top: 1.5rem;
-  font-size: 3rem;
-} */
 .project-container ul li {
-  /* padding: 5px;
-  font-size: 1.5rem;
-  color: var(--perpale); */
   list-style: none;
 }
-/* .lag ul li a p {
-  font-size: 1.5rem;
-  color: var(--perpale);
-} */
 .project-details{
     font-size: 2rem;
     color: var(--perpale);

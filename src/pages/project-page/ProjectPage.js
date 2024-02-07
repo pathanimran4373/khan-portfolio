@@ -1,7 +1,6 @@
 import React from "react";
-import "./style.css";
+import "./project.css";
 import { Link } from "react-router-dom";
-
 function ProjectPage() {
   return (
     <>
@@ -144,5 +143,4 @@ function ProjectPage() {
     </>
   );
 }
-
 export default ProjectPage;

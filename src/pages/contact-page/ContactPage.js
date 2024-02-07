@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./style.css";
+import "./contact.css";
 import Contact from "./Contact";
 import { FaRegEnvelope, FaPhoneSquare, FaMapMarkerAlt } from "react-icons/fa";
-function FourthPage() {
+function ContactPage() {
   return (
     <>
       <section className="contact" id="contact">
@@ -41,20 +41,10 @@ function FourthPage() {
               autoComplete="off"
               required
             />
-
             <textarea name="message" autoComplete="off" required></textarea>
-
             <input className="form-btn" type="submit" value="send" />
           </form>
         </div>
-
-        {/* <div className="share">
-                    <a href="https://www.instagram.com/imrankhanpathan35/" target="_blank"><i className="fa-brands fa-square-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/imran-khan-pathan-881375265/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/pathanimran4373" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href=""><i className="fa-brands fa-square-whatsapp"></i></a>
-                </div> */}
-
         <div className="share">
           <Link
             to="https://www.instagram.com/imrankhanpathan35/"
@@ -80,4 +70,4 @@ function FourthPage() {
   );
 }
 
-export default FourthPage;
+export default ContactPage;

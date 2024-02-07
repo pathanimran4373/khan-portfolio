@@ -1,23 +1,15 @@
-import React from 'react'
-import './style.css'
-function Contact(props) {
+import React from "react";
+import "./contact.css";
+function Contact({icon,title,value}) {
   return (
     <>
-      
-
-        <div class="icons">
-          <span>{props.icon}</span>
-          <h3>{props.title}</h3>
-          <p>{props.value}</p>
-
-        </div>
-
-        
-
-      
-
+      <div class="icons">
+        <span>{icon}</span>
+        <h3>{title}</h3>
+        <p>{value}</p>
+      </div>
     </>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

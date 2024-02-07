@@ -1,4 +1,3 @@
-
 .contact .share {
     justify-content: center;
     display: flex;
@@ -16,7 +15,6 @@ color: var(--perpale);
     font-size: 4rem;
     border-radius: 1rem;
 }
-
 .share i:hover {
     background-color: var(--bodycolor);
     color: #555;
@@ -30,7 +28,6 @@ color: var(--perpale);
     padding-bottom: 2rem;
     box-sizing: border-box;
 }
-
  .icons-container .icons{
     flex:1 1 20rem;
     height: 15em;
@@ -44,25 +41,18 @@ color: var(--perpale);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
 }
-
- .icons-container .icons span{
-  
-    
-    line-height: 5rem;
+.icons-container .icons span{
+   line-height: 5rem;
     font-size: 4rem;
     background: var(--main-color);
     color: var(--perpale);
     border-radius: 50%;
 }
-
- .icons-container .icons h3{
+.icons-container .icons h3{
     color:#111;
     font-size: 1.5rem;
-    /* padding:.5rem 0; */
 }
-
- .icons-container .icons p{
-    /* color:#666; */
+.icons-container .icons p{
     font-size: 1.3rem;
 }
 .contact-form{
