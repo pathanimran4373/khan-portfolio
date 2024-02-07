@@ -8,9 +8,8 @@
     transition: .2s linear;
     margin-top: 1rem;
 }
-
 .share a i {
-    background: rgba(255, 255, 255, .2);
+color: var(--perpale);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
     padding: 1rem 2rem;
     margin: 1rem;
@@ -19,7 +18,7 @@
 }
 
 .share i:hover {
-    background: rgba(255, 255, 255, .5);
+    background-color: var(--bodycolor);
     color: #555;
 }
  .icons-container{
@@ -85,4 +84,14 @@
     padding: 3px;
     margin: 3px;
     border: 1px solid var(--perpale);
+}
+.form-btn{
+background-color: var(--perpale);
+color: white;
+}
+.form-btn:hover{
+    background-color: var(--bodycolor);
+    color: #555;
+    border: none;
+    outline: none;
 }

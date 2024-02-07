@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 function SecondPage() {
   return (
-    <div>
+    <>
       
       <section className="about" id="about"> 
             <h1 className="heading">about me</h1>
@@ -35,7 +35,7 @@ function SecondPage() {
             </div>
         </section> 
 
-    </div>
+    </>
   )
 }
 
