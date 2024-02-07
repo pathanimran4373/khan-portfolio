@@ -47,6 +47,7 @@
 import { useRef, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import profileImage from "../../assets/new_img1.jpg"
 import "./Nav.css";
 
 function Nav() {
@@ -64,7 +65,7 @@ function Nav() {
         {isNavOpen ? <FaTimes /> : <FaBars />}
       </button>
       <div className="user">
-        <img src="../../public/myAssets/imageFolder/new_img.jpg" alt="mo. imrankhan"/>
+        <img src={profileImage} alt="mo. imrankhan"/>
         <h3 className="name">Mohmad Imrankhan</h3>
         <p className="post">front end developer</p>
       </div>

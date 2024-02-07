@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./homePage.css";
+import resumePdf from "../../assets/cv.pdf"
 function HomePage() {
   return (
     <>
@@ -11,7 +12,7 @@ function HomePage() {
             My name is <span>Mohmad Imrankhan</span>
           </h1>
           <h2 className="post">
-            I am a front end developer, I love my job and do well!{" "}
+            I am a front end developer, I love my job and do well!
           </h2>
           <br />
           <p>
@@ -27,7 +28,7 @@ function HomePage() {
             <Link to="/project">Projects</Link>
           </button>
           <button className="btn">
-            <Link to="../../" target="_blank" download>
+            <Link to={resumePdf} target="_blank" download>
               Download PDF
             </Link>
           </button>
