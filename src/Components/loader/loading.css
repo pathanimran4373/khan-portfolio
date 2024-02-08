@@ -1,0 +1,15 @@
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 5%;
+  height: 48rem;
+  width: 75rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 3rem 0 3rem 13rem;
+  background-color: var(--sectioncol);
+}
+.loader-container h1 {
+  color: var(--perpale);
+}

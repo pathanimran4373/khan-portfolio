@@ -29,7 +29,7 @@ function HomePage() {
           </button>
           <button className="btn">
             <Link to={resumePdf} target="_blank" download>
-              Download PDF
+              Resume
             </Link>
           </button>
         </div>

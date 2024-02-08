@@ -1,9 +1,9 @@
-#about{
-    scroll-behavior: smooth;
+#about {
+  scroll-behavior: smooth;
   overflow-y: auto;
 }
 .name span {
-  font-size: 25px !important;
+  font-size: 2rem;
 }
 .about .content h3 {
   font-size: 1.5rem;

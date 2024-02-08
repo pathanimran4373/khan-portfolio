@@ -1,18 +1,15 @@
 import React from "react";
 import "./project.css";
-import { Link } from "react-router-dom";
 function ProjectPage() {
   return (
     <>
       <div className="project-section" id="project">
         <h1 className="heading">my projects </h1>
         <div className="project-container">
-            <ul>
+          <ul>
             <li>
               <details className="project-details">
-                <summary>
-                  <Link to="https://flipcart-seven.vercel.app/" target="_blank">Flipkart [ React,Redux,Tailwind CSS] </Link>
-                </summary>
+                <summary>Flipkart [ React,Redux,Tailwind CSS]</summary>
                 <p>
                   My clone Flipkart React app provides a modern e-commerce
                   experience with intuitive navigation and dynamic product
@@ -26,20 +23,25 @@ function ProjectPage() {
                   like code splitting and lazy loading to minimize load times.
                   <br></br>
                   <span className="techstack-spanTag">
-                    Libraries: "@reduxjs/toolkit",
-                    "framer-motion", "react", "react-icons", "react-paginate",
-                    "react-redux", "react-router-dom",
-                    "react-scrollbars-custom", "react-slick", "slick-carousel",
-                    "tailwind-scrollbar"
+                    Libraries: "@reduxjs/toolkit", "framer-motion", "react",
+                    "react-icons", "react-paginate", "react-redux",
+                    "react-router-dom", "react-scrollbars-custom",
+                    "react-slick", "slick-carousel", "tailwind-scrollbar"
                   </span>
+                  <br></br>
+                  <a
+                    href="https://flipcart-seven.vercel.app/"
+                    target="_blank"
+                    title="flipkart"
+                  >
+                    View Project
+                  </a>
                 </p>
               </details>
             </li>
             <li>
               <details className="project-details">
-                <summary>
-                  <Link to="https://gio-cinema.vercel.app/" target="_blank">Jio Cenema [React,Redux,SCSS]</Link>
-                </summary>
+                <summary>Jio Cenema [React,Redux,SCSS]</summary>
                 <p>
                   My Clone JioCinema React app is a feature-rich streaming
                   platform built on React, offering users a comprehensive
@@ -53,21 +55,27 @@ function ProjectPage() {
                   streaming on various devices.
                   <br></br>
                   <span className="techstack-spanTag">
-                  Libraries: "@reduxjs/toolkit": "^1.9.1", "axios", "dayjs", "react",
-                    "react-circular-progressbar", "react-dom", "react-icons",
-                    "react-infinite-scroll-component",
+                    Libraries: "@reduxjs/toolkit": "^1.9.1", "axios", "dayjs",
+                    "react", "react-circular-progressbar", "react-dom",
+                    "react-icons", "react-infinite-scroll-component",
                     "react-lazy-load-image-component", "react-player",
                     "react-redux", "react-responsive-carousel",
                     "react-router-dom", "react-select", "react-toastify", "sass"
                   </span>
+                  <br></br>
+                  <a
+                    href="https://gio-cinema.vercel.app/"
+                    target="_blank"
+                    title="GioCenema"
+                  >
+                    View Project
+                  </a>
                 </p>
               </details>
             </li>
             <li>
               <details className="project-details">
-                <summary>
-                  <Link to="https://meesho-liard.vercel.app/" target="_blank">Meesho [React,ContextApi,CSS]</Link>
-                </summary>
+                <summary>Meesho [React,ContextApi,CSS]</summary>
                 <p>
                   Our Meesho React app is a versatile e-commerce platform
                   crafted using React, offering users a seamless shopping
@@ -84,42 +92,53 @@ function ProjectPage() {
                   making it an ideal destination for online shopping needs.
                   <br></br>
                   <span className="techstack-spanTag">
-                  Libraries: "axios", "react", "react-dom", "react-icons",
+                    Libraries: "axios", "react", "react-dom", "react-icons",
                     "react-lazy-load-image-component", "react-modal",
                     "react-router-dom": , "react-scripts", "react-toastify",
                   </span>
+                  <br></br>
+                  <a
+                    href="https://meesho-liard.vercel.app/"
+                    target="_blank"
+                    title="meesho"
+                  >
+                    View Project
+                  </a>{" "}
                 </p>
               </details>
             </li>
             <li>
               <details className="project-details">
-                <summary>
-                  <Link to="https://gym-point.vercel.app/" target="_blank">Gym [React,SCSS]</Link>
-                </summary>
+                <summary>Gym [React,SCSS]</summary>
                 <p>
                   Our Gym Shop React app is a comprehensive fitness marketplace
-                  built using React. Featuring a user-friendly
-                  interface, the app offers easy navigation through a wide range
-                  of gym equipment, apparel, supplements, and accessories. Key
-                  features include personalized product recommendations, robust
-                  search functionality. Users can
-                  create profiles, track orders, and access informative content
-                  related to fitness and health. The app is optimized for
-                  performance and responsiveness, ensuring seamless browsing and
-                  transactions across various devices.
+                  built using React. Featuring a user-friendly interface, the
+                  app offers easy navigation through a wide range of gym
+                  equipment, apparel, supplements, and accessories. Key features
+                  include personalized product recommendations, robust search
+                  functionality. Users can create profiles, track orders, and
+                  access informative content related to fitness and health. The
+                  app is optimized for performance and responsiveness, ensuring
+                  seamless browsing and transactions across various devices.
                   <br></br>
                   <span className="techstack-spanTag">
-                  Libraries: "react", "react-dom", "react-icons, "react-router-dom,
-                    "react-script, "sass",
+                    Libraries: "react", "react-dom", "react-icons,
+                    "react-router-dom, "react-script, "sass",
                   </span>
+                  <br></br>
+                  <a
+                    href="https://gym-point.vercel.app/"
+                    target="_blank"
+                    title="gym"
+                  >
+                    View Project
+                  </a>
                 </p>
               </details>
             </li>
             <li>
               <details className="project-details">
-                <summary>
-                  <Link to="https://car-shop-two.vercel.app/" target="_blank">car shop [Bootstrap5,HTML,CSS] </Link>
-                </summary>
+                <summary>Car shop [Bootstrap5,HTML,CSS]</summary>
                 <p>
                   Summary: Our Bootstrap-based Car Shop website is a sleek and
                   responsive online platform designed to cater to car
@@ -132,8 +151,16 @@ function ProjectPage() {
                   interactive image galleries, and informative product
                   descriptions, providing users with comprehensive insights into
                   each vehicle. The website is optimized for performance and
-                  cross-device compatibility, ensuring responsivenes on desktops, laptops, tablets, and
-                  smartphones. 
+                  cross-device compatibility, ensuring responsivenes on
+                  desktops, laptops, tablets, and smartphones.
+                  <br></br>
+                  <a
+                    href="https://car-shop-two.vercel.app/"
+                    target="_blank"
+                    title="car_shop"
+                  >
+                    View Project
+                  </a>
                 </p>
               </details>
             </li>
@@ -144,3 +171,4 @@ function ProjectPage() {
   );
 }
 export default ProjectPage;
+

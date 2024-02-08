@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 function ErrorBoundary({ children }) {
   const [hasError, setHasError] = useState(false);
@@ -8,10 +8,10 @@ function ErrorBoundary({ children }) {
       setHasError(true);
     };
 
-    window.addEventListener('error', handleError);
+    window.addEventListener("error", handleError);
 
     return () => {
-      window.removeEventListener('error', handleError);
+      window.removeEventListener("error", handleError);
     };
   }, []);
 

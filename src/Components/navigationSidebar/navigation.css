@@ -49,6 +49,9 @@
   border: none;
   outline: none;
 }
+.horizontal-line{
+  display: none;
+}
 .navbar .menu {
   display: block;
   padding: 0.5rem;

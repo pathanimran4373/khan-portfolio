@@ -13,35 +13,46 @@
   width: 10px;
 }
 .project-section::-webkit-scrollbar-thumb {
-  background: var(--perpale); 
-  border-radius: 5px; 
+  background: var(--perpale);
+  border-radius: 5px;
 }
 .project-section::-webkit-scrollbar-thumb:hover {
-    background-color: var(--bodycolor);
+  background-color: #555;
 }
 .project-section::-webkit-scrollbar-track {
-  background: black; 
+  background: var(--bodycolor);
 }
-.project-container ul{
+.project-container ul {
   margin-top: 20px;
 }
 .project-container ul li {
   list-style: none;
 }
-.project-details{
-    font-size: 2rem;
-    color: var(--perpale);
-    margin-bottom: 10px;
+.project-details {
+  font-size: 2rem;
+  color: var(--perpale);
+  margin-bottom: 10px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
-.project-details:hover{
-    color: var(--bodycolor);
+.project-details:hover {
+  color: var(--bodycolor);
+  color: #555;
+  cursor: pointer;
 }
-.project-details p{
-    margin-top: 10px;
-    font-size: 1.4rem;
-    color: black;
+.project-details p {
+  font-size: 1.4rem;
+  padding: 0 50px;
+  color: black;
+  line-height: 1.5;
+  font-size: 16px;
 }
- .techstack-spanTag{
-    color: var(--perpale);
-    font-size: 1.5rem;
+.project-details p a {
+  color: blue;
+}
+.techstack-spanTag {
+  color: var(--perpale);
+  font-size: 1.5rem;
 }

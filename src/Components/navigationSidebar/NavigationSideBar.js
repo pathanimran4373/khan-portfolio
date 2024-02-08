@@ -12,11 +12,8 @@ function NavigationSideBar() {
   return (
     <>
       <header className="header-container">
-        <div className="nav-btn" onClick={toggleNavbar}>
-          {isNavOpen ? <FaTimes /> : <FaBars />}
-        </div>
         <div className="user">
-          <img src={profileImage} alt="mo. imrankhan" />
+          <img src={profileImage} alt="mo. imrankhan" loading="lazy" />
           <h3 className="name">Mohmad Imrankhan</h3>
           <p className="post">front end developer</p>
         </div>
@@ -45,8 +42,10 @@ function NavigationSideBar() {
           <a href="#" title="whatsapp">
             <i className="fa-brands fa-square-whatsapp"></i>
           </a>
+          <div className="nav-btn" onClick={toggleNavbar}>
+            {isNavOpen ? <FaTimes /> : <FaBars />}
+          </div>
         </div>
-
         <nav
           className={`navbar ${isNavOpen ? "responsive_nav" : ""}`}
           ref={navRef}
@@ -68,6 +67,7 @@ function NavigationSideBar() {
           </Link>
         </nav>
       </header>
+      <hr className="horizontal-line" />
     </>
   );
 }
