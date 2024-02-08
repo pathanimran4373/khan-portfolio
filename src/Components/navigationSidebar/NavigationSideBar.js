@@ -12,9 +12,9 @@ const toggleNavbar = () => {
  return (
    <>
     <header className="header-container">
-      <button className="nav-btn" onClick={toggleNavbar}>
+      <div className="nav-btn" onClick={toggleNavbar}>
         {isNavOpen ? <FaTimes /> : <FaBars />}
-      </button>
+      </div>
       <div className="user">
         <img src={profileImage} alt="mo. imrankhan"/>
         <h3 className="name">Mohmad Imrankhan</h3>

@@ -5,7 +5,7 @@ function EducationPage() {
     <>
       <section className="education" id="education">
         <h1 className="heading">my education</h1>
-        <div class="box-container">
+        <div className="box-container">
           <div className="box ssc">
             <div className="year">2006</div>
             <h3>SSC</h3>
