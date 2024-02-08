@@ -20,6 +20,26 @@ const toggleNavbar = () => {
         <h3 className="name">Mohmad Imrankhan</h3>
         <p className="post">front end developer</p>
       </div>
+      <div className="share">
+            <Link
+              to="https://www.instagram.com/imrankhanpathan35/"
+              target="_blank"
+            >
+              <i className="fa-brands fa-square-instagram"></i>
+            </Link>
+            <Link
+              to="https://www.linkedin.com/in/imran-khan-pathan-881375265/"
+              target="_blank"
+            >
+              <i className="fa-brands fa-linkedin"></i>
+            </Link>
+            <Link to="https://github.com/pathanimran4373" target="_blank">
+              <i className="fa fa-github" aria-hidden="true"></i>
+            </Link>
+            <Link to="">
+              <i className="fa-brands fa-square-whatsapp"></i>
+            </Link>
+          </div>
       <nav className={`navbar ${isNavOpen ? "responsive_nav" : ""}`} ref={navRef}>
         <Link className="menu" to="/" onClick={toggleNavbar}>
           HOME

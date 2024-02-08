@@ -1,87 +1,66 @@
-.contact .share {
-    justify-content: center;
-    display: flex;
-    padding: .5rem;
-    border-radius: 1rem;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-    transition: .2s linear;
-    margin-top: 1rem;
+.icons-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
 }
-.share a i {
-color: var(--perpale);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
-    padding: 1rem 2rem;
-    margin: 1rem;
-    font-size: 4rem;
-    border-radius: 1rem;
+.icons-container .icons {
+  flex: 1 1 20rem;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
 }
-.share i:hover {
-    background-color: var(--bodycolor);
-    color: #555;
+.icons-container .icons span {
+  line-height: 5rem;
+  font-size: 4rem;
+  background: var(--main-color);
+  color: var(--perpale);
+  border-radius: 50%;
 }
- .icons-container{
-    display: flex;
-    gap:1rem;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 2rem;
-    box-sizing: border-box;
+.icons-container .icons h3 {
+  color: #111;
+  font-size: 1.5rem;
 }
- .icons-container .icons{
-    flex:1 1 20rem;
-    height: 15em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding:1rem;
-    background:#fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    border-radius: .5rem;
+.icons-container .icons p {
+  font-size: 1.3rem;
 }
-.icons-container .icons span{
-   line-height: 5rem;
-    font-size: 4rem;
-    background: var(--main-color);
-    color: var(--perpale);
-    border-radius: 50%;
+.contact-form {
+  margin-top: 20px;
+  width: 40rem;
 }
-.icons-container .icons h3{
-    color:#111;
-    font-size: 1.5rem;
+.contact-form input {
+  width: 100%;
+  height: 30px;
+  padding: 3px;
+  margin: 3px;
+  border: 1px solid var(--perpale);
+  border-radius: 5px;
 }
-.icons-container .icons p{
-    font-size: 1.3rem;
+.contact-form textarea {
+  width: 100%;
+  height: 50px;
+  padding: 3px;
+  margin: 3px;
+  border: 1px solid var(--perpale);
 }
-.contact-form{
-    margin: 5px;
-    padding: 5px;
-    width: 40rem;
+.form-btn {
+  background-color: var(--perpale);
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
-.contact-form input{
-    width: 100%;
-    height: 30px;
-    padding: 3px;
-    margin: 3px;
-    border: 1px solid var(--perpale);
-    border-radius: 5px;
-}
-.contact-form textarea{
-    width: 100%;
-    height: 50px;
-    padding: 3px;
-    margin: 3px;
-    border: 1px solid var(--perpale);
-}
-.form-btn{
-background-color: var(--perpale);
-color: white;
-}
-.form-btn:hover{
-    background-color: var(--bodycolor);
-    color: #555;
-    border: none;
-    outline: none;
+.form-btn:hover {
+  background-color: var(--bodycolor);
+  color: #555;
+  border: none;
+  outline: none;
 }

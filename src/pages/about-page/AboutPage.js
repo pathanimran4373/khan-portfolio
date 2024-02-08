@@ -27,7 +27,7 @@ function AboutPage() {
           </div>
           <div className="progress">
             <h3>
-              CSS <span>85%</span>
+              CSS <span>75%</span>
             </h3>
             <div className="bar">
               <span></span>
@@ -35,7 +35,7 @@ function AboutPage() {
           </div>
           <div className="progress">
             <h3>
-              Javascript <span>65%</span>
+              Javascript <span>70%</span>
             </h3>
             <div className="bar">
               <span></span>
@@ -43,7 +43,71 @@ function AboutPage() {
           </div>
           <div className="progress">
             <h3>
-              React & Redux<span>65%</span>
+              React & Redux<span>70%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+              Git<span>80%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+            Adobe Photoshop<span>70%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+            Model-View-Controller (MVC)<span>80%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+            Postman for API testing<span>70%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+            Visual Studio Code (VS Code)<span>90%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+              Bootstrap5<span>80%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+            Sass (Syntactically Awesome Style Sheets)<span>75%</span>
+            </h3>
+            <div className="bar">
+              <span></span>
+            </div>
+          </div>
+          <div className="progress">
+            <h3>
+           Taiwind CSS<span>60%</span>
             </h3>
             <div className="bar">
               <span></span>

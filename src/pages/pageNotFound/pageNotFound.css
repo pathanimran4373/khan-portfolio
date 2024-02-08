@@ -1,0 +1,16 @@
+.notFound-container {
+  height: 92vh;
+  padding: 1rem 5%;
+  width: 80rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 3rem 0 3rem 13rem;
+  background-color: var(--sectioncol);
+  position: relative;
+}
+.notFound-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

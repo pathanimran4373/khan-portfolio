@@ -21,7 +21,6 @@ html {
 }
 body {
   padding-left: 30rem;
-  /* background-color: var(--bodycolor); */
   background-color: #555;
 }
 .heading{
@@ -30,7 +29,8 @@ body {
 }
 section {
   padding: 1rem 5%;
-  height: 52rem;
+  height: 48rem;
+  /* height: 52rem; */
   width: 75rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   border-radius: 1rem;

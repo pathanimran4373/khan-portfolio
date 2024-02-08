@@ -1,3 +1,7 @@
+#about{
+    scroll-behavior: smooth;
+  overflow-y: auto;
+}
 .name span {
   font-size: 25px !important;
 }
@@ -46,14 +50,38 @@
   background: green;
 }
 .about .skills .progress:nth-child(1) .bar span {
-  width: 95%;
+  width: 65%;
 }
 .about .skills .progress:nth-child(2) .bar span {
-  width: 85%;
+  width: 75%;
 }
 .about .skills .progress:nth-child(3) .bar span {
-  width: 65%;
+  width: 70%;
 }
 .about .skills .progress:nth-child(4) .bar span {
   width: 70%;
+}
+.about .skills .progress:nth-child(5) .bar span {
+  width: 80%;
+}
+.about .skills .progress:nth-child(6) .bar span {
+  width: 70%;
+}
+.about .skills .progress:nth-child(7) .bar span {
+  width: 80%;
+}
+.about .skills .progress:nth-child(8) .bar span {
+  width: 70%;
+}
+.about .skills .progress:nth-child(9) .bar span {
+  width: 90%;
+}
+.about .skills .progress:nth-child(10) .bar span {
+  width: 80%;
+}
+.about .skills .progress:nth-child(11) .bar span {
+  width: 75%;
+}
+.about .skills .progress:nth-child(12) .bar span {
+  width: 60%;
 }
