@@ -1,11 +1,14 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import profileImage from "../../assets/new_img1.jpg";
 import "./navigation.css";
+
+
 function NavigationSideBar() {
+
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const navRef = useRef();
+
   const toggleNavbar = () => {
     setIsNavOpen(!isNavOpen);
   };
@@ -13,7 +16,7 @@ function NavigationSideBar() {
     <>
       <header className="header-container">
         <div className="user">
-          <img src={profileImage} alt="mo. imrankhan" loading="lazy" />
+          <img src={profileImage} alt="mo. imrankhan" loading="eager" />
           <h3 className="name">Mohmad Imrankhan</h3>
           <p className="post">front end developer</p>
         </div>
@@ -48,7 +51,6 @@ function NavigationSideBar() {
         </div>
         <nav
           className={`navbar ${isNavOpen ? "responsive_nav" : ""}`}
-          ref={navRef}
         >
           <Link className="menu" to="/" onClick={toggleNavbar}>
             HOME
