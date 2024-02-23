@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./homePage.css";
 import resumePdf from "../../assets/cv.pdf"
+
 function HomePage() {
   return (
     <>

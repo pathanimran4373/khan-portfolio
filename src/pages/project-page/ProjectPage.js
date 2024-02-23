@@ -1,5 +1,6 @@
 import React from "react";
 import "./project.css";
+
 function ProjectPage() {
   return (
     <>
@@ -98,12 +99,12 @@ function ProjectPage() {
                   </span>
                   <br></br>
                   <a
-                    href="https://meesho-liard.vercel.app/"
+                    href="https://meesho-app-six.vercel.app/"
                     target="_blank"
                     title="meesho"
                   >
                     View Project
-                  </a>{" "}
+                  </a>
                 </p>
               </details>
             </li>
@@ -138,7 +139,7 @@ function ProjectPage() {
             </li>
             <li>
               <details className="project-details">
-                <summary>Car shop [Bootstrap5,HTML,CSS]</summary>
+                <summary>Car shop [ReactJS]</summary>
                 <p>
                   Summary: Our Bootstrap-based Car Shop website is a sleek and
                   responsive online platform designed to cater to car

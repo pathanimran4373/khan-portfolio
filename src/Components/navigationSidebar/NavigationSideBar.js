@@ -12,6 +12,7 @@ function NavigationSideBar() {
   const toggleNavbar = () => {
     setIsNavOpen(!isNavOpen);
   };
+
   return (
     <>
       <header className="header-container">
@@ -29,7 +30,7 @@ function NavigationSideBar() {
             <i className="fa-brands fa-square-instagram"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/imran-khan-pathan-881375265/"
+            href="https://www.linkedin.com/in/imrankhan-pathan-881375265/"
             target="_blank"
             title="linkedin"
           >
