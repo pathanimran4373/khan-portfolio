@@ -128,7 +128,7 @@ function ProjectPage() {
                   </span>
                   <br></br>
                   <a
-                    href="https://gym-point.vercel.app/"
+                    href="https://fitnesshub-tby7.vercel.app/"
                     target="_blank"
                     title="gym"
                   >
@@ -139,7 +139,7 @@ function ProjectPage() {
             </li>
             <li>
               <details className="project-details">
-                <summary>Car shop [ReactJS]</summary>
+                <summary>Car shop [ReactJS,CSS]</summary>
                 <p>
                   Summary: Our Bootstrap-based Car Shop website is a sleek and
                   responsive online platform designed to cater to car
