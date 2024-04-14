@@ -19,100 +19,55 @@ function AboutPage() {
         </div>
         <div className="skills">
           <div className="progress">
-            <h3>
-              HTML <span>65%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>HTML</h3>
           </div>
           <div className="progress">
-            <h3>
-              CSS <span>75%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>CSS</h3>
           </div>
           <div className="progress">
-            <h3>
-              Javascript <span>70%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>Javascript</h3>
           </div>
           <div className="progress">
-            <h3>
-              React & Redux<span>70%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>React & Redux</h3>
           </div>
           <div className="progress">
-            <h3>
-              Git<span>80%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>Next.js</h3>
           </div>
           <div className="progress">
-            <h3>
-            Adobe Photoshop<span>70%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>TypeScript</h3>
           </div>
           <div className="progress">
-            <h3>
-            Model-View-Controller (MVC)<span>80%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>Jest</h3>
           </div>
           <div className="progress">
-            <h3>
-            Postman for API testing<span>70%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>REST API</h3>
           </div>
           <div className="progress">
-            <h3>
-            Visual Studio Code (VS Code)<span>90%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>Figma</h3>
           </div>
           <div className="progress">
-            <h3>
-              Bootstrap5<span>80%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>Git</h3>
           </div>
           <div className="progress">
-            <h3>
-            Sass (Syntactically Awesome Style Sheets)<span>75%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>Adobe Photoshop</h3>
           </div>
           <div className="progress">
-            <h3>
-           Taiwind CSS<span>60%</span>
-            </h3>
-            <div className="bar">
-              <span></span>
-            </div>
+            <h3>Model-View-Controller (MVC)</h3>
+          </div>
+          <div className="progress">
+            <h3>Jira Tool</h3>
+          </div>
+          <div className="progress">
+            <h3>Visual Studio Code (VS Code)</h3>
+          </div>
+          <div className="progress">
+            <h3>Bootstrap5</h3>
+          </div>
+          <div className="progress">
+            <h3>Sass (Syntactically Awesome Style Sheets)</h3>
+          </div>
+          <div className="progress">
+            <h3>Taiwind CSS</h3>
           </div>
         </div>
       </section>
