@@ -7,6 +7,81 @@ function ProjectPage() {
       <div className="project-section" id="project">
         <h1 className="heading">my projects </h1>
         <div className="project-container">
+          <h2 className="project-heading">Industrial projects </h2>
+          <ul>
+            <li>
+              <details className="project-details">
+                <summary>Southern Hospitality Management</summary>
+                <span className="techstack-spanTag">
+                  Environment: React, Redux, HTML, CSS(Sass), Figma, Jira, Git,
+                  NodeJS, Express.js, MongoDB, GitLab CI/CD, TDD, Jest, Yarn,
+                  REST API Babel, ESLint, Webpack, Model-View-Controller (MVC),
+                  Micro Services
+                </span>
+                <p>
+                  Description: The 'Southern Hospitality Management' aims at
+                  providing to manage their customer services and internal
+                  management system. This application used to simplify their
+                  hotel operations and accommodation like room- reservation,
+                  room allocation and administrative task. The main purpose of
+                  this application is to provide centralized user-friendly
+                  platform that empower the hotel to streamline their operation
+                  and enhance gest experience and optimize efficiency of their
+                  staff.
+                </p>
+                <br />
+                <p>
+                  Role and responsibility: As a front-end developer, I translate
+                  mockups and wireframes into responsive web pages using HTML,
+                  CSS(SASS) and ReactJs for single-page applications. I
+                  collaborate with the backend team and designer to integrate
+                  front-end and backend seamlessly .
+                </p>
+              </details>
+            </li>
+            <li>
+              <details className="project-details">
+                <summary>Pharmacy CRM.</summary>
+                <span className="techstack-spanTag">
+                  Environment: Photoshop,HTML, CSS, Bootstrap, ES6 Fetures,
+                  React, Redux, Node.js, Express.js, MongoDB, VS Code, Git,
+                  npm,Babel,ESLint, Jest, Webpack, Docker, GitLab CI/CD,
+                  Model-View-Controller (MVC).
+                </span>
+                <p>
+                  The 'Pharmacy Management System' is designed to computerize
+                  the transactional processes of medical distributors. Its goal
+                  is to offer a user-friendly interface accessible to
+                  individuals with limited computer knowledge. The interface is
+                  equipped with intuitive controls, guiding users seamlessly
+                  from login to report generation. The project comprises four
+                  key modules: Purchasing Orders, Drug Sales, Stock Management,
+                  and Report Generation. The overarching aim is to provide an
+                  intuitive and seamless user experience.
+                </p>
+                <br/>
+                <p>
+                  As a UI developer I have design and develop the user interface
+                  components using technologies such as React.js, HTML, CSS,
+                  JavaScript and Bootstrap. I collaborate closely with backend
+                  developers to integrate frontend interfaces with the Node.js
+                  backend and MongoDB database. I ensure the user-friendly
+                  nature of the application by creating intuitive and responsive
+                  layouts, implementing navigation features, form validations,
+                  and interactive elements. Additionally, I conduct thorough
+                  testing of the frontend functionalities to guarantee seamless
+                  user experiences across different devices and browsers.
+                  Throughout the development process, I adhere to design
+                  specifications, accessibility standards, and best practices in
+                  UI/UX design to deliver a high-quality and visually appealing
+                  application interface.
+                </p>
+              </details>
+            </li>
+          </ul>
+        </div>
+        <div className="project-container">
+          <h2 className="project-heading">Personal projects </h2>
           <ul>
             <li>
               <details className="project-details">
@@ -172,4 +247,3 @@ function ProjectPage() {
   );
 }
 export default ProjectPage;
-

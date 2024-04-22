@@ -1,4 +1,7 @@
-
+#about {
+    scroll-behavior: smooth;
+    overflow-y: auto;
+  }
   .name span {
     font-size: 2rem;
   }
@@ -23,10 +26,10 @@
     margin-top: 20px;
   }
   .skills>.progress{
-    /* border: 1px solid var(--perpale);; */
+    border: 1px solid var(--perpale);;
     padding: 10px;
-    background: #fff;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    background-color: var(--navbg);
     border-radius: 0.5rem;
   }
   .progress h3{

@@ -4,7 +4,7 @@ import "./about.css";
 function AboutPage() {
   return (
     <>
-      <section className="about" id="about">
+      <section className="about">
         <h1 className="heading">about me</h1>
         <div className="content">
           <h3 className="name">
@@ -41,6 +41,9 @@ function AboutPage() {
           </div>
           <div className="progress">
             <h3>REST API</h3>
+          </div>
+          <div className="progress">
+            <h3>NodeJS/ExpressJS</h3>
           </div>
           <div className="progress">
             <h3>Figma</h3>
