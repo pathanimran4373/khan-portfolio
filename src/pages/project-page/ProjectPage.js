@@ -31,11 +31,7 @@ function ProjectPage() {
                 </p>
                 <br />
                 <p>
-                  Role and responsibility: As a front-end developer, I translate
-                  mockups and wireframes into responsive web pages using HTML,
-                  CSS(SASS) and ReactJs for single-page applications. I
-                  collaborate with the backend team and designer to integrate
-                  front-end and backend seamlessly .
+                As a front-end developer, I specialize in translating mockups and wireframes into responsive web pages, primarily utilizing React for single-page applications. Collaborating closely with the backend team, I seamlessly integrate front-end components with Node.js and Express.js within the MERN stack architecture. I employ Redux for efficient state management, ensuring smooth data flow between components. Additionally, I take charge of API integration, focusing on optimizing user experience through enhanced page load times and performance, as well as implementing fluid transitions and animations. My responsibilities extend to contributing to unit and integration testing, actively participating in code reviews, and meticulously documenting front-end code for improved maintainability. I prioritize continuous learning and keeping abreast of the latest front-end development trends and technologies to enhance my skill set.
                 </p>
               </details>
             </li>
