@@ -37,7 +37,7 @@ function NavigationSideBar() {
             <i className="fa-brands fa-linkedin"></i>
           </a>
           <a
-            href="https://github.com/pathanimran4373"
+            href="https://github.com/pathanimran437"
             target="_blank"
             title="github"
           >
