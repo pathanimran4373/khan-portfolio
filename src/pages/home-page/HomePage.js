@@ -18,7 +18,7 @@ function HomePage() {
           <br />
           <p>
             A result oriented professional with 2+ years of experience Front
-            End/UI Developer in “Bit Hub Technology Pvt. ltd.” from December
+            End/UI Developer with “Bit Hub Technology Pvt. ltd. Pune(MH)” from December
             2021 to April 2024 & extensive experience in all the stages of
             Designing, Developing, Debugging. <br />
             My projects are...
