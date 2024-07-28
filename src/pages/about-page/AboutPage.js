@@ -12,9 +12,17 @@ function AboutPage() {
           </h3>
           <p>
             i'm front end developer. this is my official portfolio website to
-            showcase my all work related to web development
+            showcase my all work related to web development.
           </p>
-          <p>i am very passionate and dedicated to my work</p>
+          <p>
+            I am always eager to learn and stay
+            updated with industry trends, continuously seeking opportunities to
+            expand my knowledge and improve my craft. Collaboration and
+            problem-solving are at the heart of my approach, and I enjoy working
+            closely with designers, back-end developers, and other stakeholders
+            to bring innovative ideas to life.Let's connect and create
+            something amazing together!
+          </p>
           <h3>my skills are...</h3>
         </div>
         <div className="skills">
@@ -49,25 +57,17 @@ function AboutPage() {
             <h3>Figma</h3>
           </div>
           <div className="progress">
-            <h3>Git</h3>
-          </div>
-          <div className="progress">
             <h3>Adobe Photoshop</h3>
           </div>
           <div className="progress">
-            <h3>Model-View-Controller (MVC)</h3>
+            <h3>Git/Github</h3>
           </div>
-          <div className="progress">
-            <h3>Jira Tool</h3>
-          </div>
-          <div className="progress">
-            <h3>Visual Studio Code (VS Code)</h3>
-          </div>
+
           <div className="progress">
             <h3>Bootstrap5</h3>
           </div>
           <div className="progress">
-            <h3>Sass (Syntactically Awesome Style Sheets)</h3>
+            <h3>SASS (CSS preprocessors)</h3>
           </div>
           <div className="progress">
             <h3>Taiwind CSS</h3>
