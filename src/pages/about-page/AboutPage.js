@@ -11,7 +11,7 @@ function AboutPage() {
             my name is <span>Mohmad Imrankhan Pathan</span>
           </h3>
           <p>
-            i'm front end developer. this is my official portfolio website to
+            i'm front end developer.In present I am working for Bithub Technology Pune. This is my official portfolio website to
             showcase my all work related to web development.
           </p>
           <p>
