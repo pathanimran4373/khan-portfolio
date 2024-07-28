@@ -11,7 +11,7 @@ function AboutPage() {
             my name is <span>Mohmad Imrankhan Pathan</span>
           </h3>
           <p>
-            i'm front end developer.In present I am working for Bithub Technology Pune. This is my official portfolio website to
+            i'm front end developer. In present, I am working for Bithub Technology Pune. This is my official portfolio website to
             showcase my all work related to web development.
           </p>
           <p>
@@ -38,12 +38,12 @@ function AboutPage() {
           <div className="progress">
             <h3>React & Redux</h3>
           </div>
-          <div className="progress">
+          {/* <div className="progress">
             <h3>Next.js</h3>
           </div>
           <div className="progress">
             <h3>TypeScript</h3>
-          </div>
+          </div> */}
           <div className="progress">
             <h3>Jest</h3>
           </div>
