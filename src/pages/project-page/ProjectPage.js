@@ -77,7 +77,7 @@ function ProjectPage() {
           </ul>
         </div>
         <div className="project-container">
-          <h2 className="project-heading">Personal projects </h2>
+          <h2 className="project-heading">Personal Clone projects </h2>
           <ul>
             <li>
               <details className="project-details">
